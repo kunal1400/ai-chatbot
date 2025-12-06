@@ -1,5 +1,10 @@
-import LoginForm from "@/components/Login";
+import AuthForm from "@/components/AuthForm";
 
-export default function Home() {
-  return <LoginForm />;
+export const metadata = {
+  title: " Sign In",
+  description: "Sign in to your account"
+};
+
+export default function Page() {
+  return <AuthForm />;
 }
